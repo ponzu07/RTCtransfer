@@ -144,7 +144,7 @@ function bootAnimation() {
   button.css('cursor', 'default');
   setTimeout(function () {
     button.attr('class', 'button green send');
-    button.html('send a file');
+    button.html('ファイルを送信');
     button.toggleClass('send');
     button.toggleClass('browse');
     button.css('cursor', 'pointer');
